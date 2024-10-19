@@ -56,3 +56,12 @@ solid-principles-react/
 
 - Concept: High-level modules should not depend on low-level modules. Both should depend on abstractions.
 - Example: Using dependency injection to decouple data fetching from data display.
+
+## Learning from the Examples
+
+For each SOLID principle:
+
+1. Start by examining the "Bad" example (`Bad.tsx`) in each principle's folder.
+2. Identify the issues that violate the principle.
+3. Then, look at the "Good" example (`Good.tsx`) to see how the code can be refactored to adhere to the principle.
+4. Compare the two versions to understand the benefits of applying the SOLID principle.
